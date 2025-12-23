@@ -1,0 +1,40 @@
+name: MLflow Project CI
+
+on:
+  push:
+    paths:
+      - "Workflow-CI/MLProject/**"
+      - ".github/workflows/ci_mlproject.yml"
+  pull_request:
+    paths:
+      - "Workflow-CI/MLProject/**"
+      - ".github/workflows/ci_mlproject.yml"
+
+jobs:
+  train-model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install pip dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mlflow scikit-learn pandas
+
+      - name: Run MLflow Project
+        working-directory: Workflow-CI
+        run: |
+          mlflow run MLProject --env-manager=local
+
+      - name: Upload MLflow artefacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: mlflow-artifacts
+          path: Workflow-CI/mlruns/
+          retention-days: 7

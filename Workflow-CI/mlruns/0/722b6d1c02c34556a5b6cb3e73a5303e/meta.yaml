@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/I5/Documents/asah-2025/membangun-sistem-machine-learning/Eksperimen_SML_mifdal/Workflow-CI/mlruns/0/722b6d1c02c34556a5b6cb3e73a5303e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 722b6d1c02c34556a5b6cb3e73a5303e
+run_name: luminous-hen-51
+run_uuid: 722b6d1c02c34556a5b6cb3e73a5303e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766463065298
+status: 1
+tags: []
+user_id: I5

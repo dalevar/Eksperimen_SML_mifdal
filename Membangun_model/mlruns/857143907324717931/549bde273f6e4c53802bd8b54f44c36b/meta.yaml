@@ -1,0 +1,15 @@
+artifact_uri: file://C:\Users\I5\Documents\asah-2025\membangun-sistem-machine-learning\Eksperimen_SML_mifdal\Membangun_model\mlruns/857143907324717931/549bde273f6e4c53802bd8b54f44c36b/artifacts
+end_time: 1766460683776
+entry_point_name: ''
+experiment_id: '857143907324717931'
+lifecycle_stage: active
+run_id: 549bde273f6e4c53802bd8b54f44c36b
+run_name: LogReg_GridSearch
+run_uuid: 549bde273f6e4c53802bd8b54f44c36b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766460676857
+status: 3
+tags: []
+user_id: I5

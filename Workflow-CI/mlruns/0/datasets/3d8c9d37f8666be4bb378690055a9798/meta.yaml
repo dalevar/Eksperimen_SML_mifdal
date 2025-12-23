@@ -1,0 +1,13 @@
+digest: e6cd77b6
+name: dataset
+profile: '{"num_rows": 216, "num_elements": 2808}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age"}, {"type": "double",
+  "name": "Sex"}, {"type": "double", "name": "Chest pain type"}, {"type": "double",
+  "name": "BP"}, {"type": "double", "name": "Cholesterol"}, {"type": "double", "name":
+  "FBS over 120"}, {"type": "double", "name": "EKG results"}, {"type": "double", "name":
+  "Max HR"}, {"type": "double", "name": "Exercise angina"}, {"type": "double", "name":
+  "ST depression"}, {"type": "double", "name": "Slope of ST"}, {"type": "double",
+  "name": "Number of vessels fluro"}, {"type": "double", "name": "Thallium"}]}'
+source: '{"tags": {"mlflow.user": "I5", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code

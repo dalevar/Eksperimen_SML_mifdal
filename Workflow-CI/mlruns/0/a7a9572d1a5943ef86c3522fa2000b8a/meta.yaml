@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/I5/Documents/asah-2025/membangun-sistem-machine-learning/Eksperimen_SML_mifdal/Workflow-CI/mlruns/0/a7a9572d1a5943ef86c3522fa2000b8a/artifacts
+end_time: 1766463327235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7a9572d1a5943ef86c3522fa2000b8a
+run_name: burly-vole-192
+run_uuid: a7a9572d1a5943ef86c3522fa2000b8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1766463314243
+status: 3
+tags: []
+user_id: I5
