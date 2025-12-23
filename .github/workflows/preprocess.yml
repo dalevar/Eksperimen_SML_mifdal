@@ -27,7 +27,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_mifdal.py
+          python automate_mifdal.py
 
       - name: Upload preprocessed dataset
         uses: actions/upload-artifact@v4
